@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator | RajatKumarDas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 🔝 Navigation Menu -->
+  <nav class="navbar">
+    <ul>
+      <li><a class="active" href="index.html">Calculator</a></li>
+      <li><a href="stopwatch.html">Stopwatch</a></li>
+      <li><a href="tictactoe.html">Tic Tac Toe</a></li>
+      <li><a href="features.html">Features</a></li>
+    </ul>
+  </nav>
+
+  <h1><b><u><center>My Calculator</center></u></b></h1>
+  <!-- 🧮 Calculator Section -->
+  <div class="calculator">
+    <input type="text" id="display" class="display" readonly>
+
+    <div class="buttons">
+      <button onclick="clearDisplay()">C</button>
+      <button onclick="deleteChar()">←</button>
+      <button onclick="append('%')">%</button>
+      <button onclick="append('/')">/</button>
+
+      <button onclick="append('7')">7</button>
+      <button onclick="append('8')">8</button>
+      <button onclick="append('9')">9</button>
+      <button onclick="append('*')">*</button>
+
+      <button onclick="append('4')">4</button>
+      <button onclick="append('5')">5</button>
+      <button onclick="append('6')">6</button>
+      <button onclick="append('-')">-</button>
+
+      <button onclick="append('1')">1</button>
+      <button onclick="append('2')">2</button>
+      <button onclick="append('3')">3</button>
+      <button onclick="append('+')">+</button>
+
+      <button onclick="append('0')">0</button>
+      <button onclick="append('.')">.</button>
+      <button onclick="calculate()">=</button>
+    </div>
+  </div>
+
+  <!-- ©️ Footer -->
+  <footer>
+    &copy; 2025 RajatKumarDas. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
